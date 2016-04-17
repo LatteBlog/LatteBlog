@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="js/jquery-2.2.3.min.js" type="text/javascript" charset="utf-8" async defer></script>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>@cml_stella个人博客</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/latteblog-main.css" rel="stylesheet">
+
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/agency.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    
+</head>
+<body>
+   
+<script src="js/latte.js" type="text/javascript" charset="utf-8" async defer></script>
+<div class="jumbotron" style="position:relative;z-index:1;">
+    
+   <div style="position:absolute;bottom:0;right:0; margin-right:10px;">
+    <h3 class="latte-font">Nothing behind me, everything ahead of me, as is ever so on the road.</h3>
+    
+    <p align="right" style="margin-right:10px;">
+
+        <span class ="latte-font" style="font-size:18px;">@cml_stella</span>&nbsp;
+        <a href="http://weibo.com/u/2846981845" target="_blank"><i class="fa fa-weibo" style="color:gray"></i></a>&nbsp;
+        <a href="https://github.com/soumuro" target="_blank"><i class="fa fa-github" style="color:gray"></i></a>&nbsp;
+        <i class="fa fa-wechat" style="color:gray"></i>&nbsp;
+    </p>
+    </div>
+</div>
+<div id="ho-wechat" style="z-index:888;position:absolute;right:0;display:none;">
+    <img width="350px" src="img/wechat.jpg" alt=""/>
+</div>
+
+<div class="panel panel-default" style="z-index:1;">
+    
+    <ul class="nav nav-tabs" >
+    <li><a href="index"><span class="glyphicon glyphicon-home"></span>&nbsp;Home</a></li>
+    <li><a href="blog.html"><span class="glyphicon glyphicon-pencil"></span>&nbsp;Blog</a></li>
+    <li><a href="life.html"><span class="glyphicon glyphicon-picture"></span>&nbsp;Life</a></li>
+    <li><a href="about.html"><span class="glyphicon glyphicon-sunglasses"></span>&nbsp;About</a></li>
+
+</ul>
+
+
+</div>
+    <div class="panel panel-default">
+
+        <div class="panel-body">
+            <h3><a href="##">first blog</a></h3>
+            <table >
+                <tr style="vertical-align:top;">
+                <td>
+                    <img src="img/sm.jpg" height="150px">
+                </td>
+                <td>
+                    <h5>hello hello hello bonjour anihasayo coniqiwa sawadika hehe</h5>
+                </td>
+                </tr>
+            </table>
+        </div>
+        <div class="panel-footer">
+           <span class="glyphicon glyphicon-time"></span>&nbsp;1个月前
+           <a href="##"><span class="glyphicon glyphicon-tags" style="padding-left:15px;"></span>&nbsp;寒暄</a>
+           <a href="##"><span class="glyphicon glyphicon-user" style="padding-left:15px;"></span>&nbsp;cml_stella</a>
+        </div>
+        
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h3><a href="##">first blog</a></h3>
+            <h5>hello hello hello bonjour anihasayo coniqiwa sawadika hehe</h5>
+        </div>
+        <div class="panel-footer">
+           <span class="glyphicon glyphicon-time"></span>&nbsp;1个月前
+        </div>
+    </div>
+  
+</body>
+<footer class ="footer-font" style="background:#FF5174">
+    <br/>
+    <p style="font-family:FangSong;font-size:16px;">
+        欢迎来到曹梦露的博客，该博客专注分享最有用WEB前端知识，最前沿的WEB前端技术，最好玩WEB前端资讯
+    </p>
+
+    <p >Copyright © 2016 - 2017 cml_stella. All Rights Reserved </p>
+    
+    
+    
+</footer>
+</html>
