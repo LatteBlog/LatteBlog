@@ -1,4 +1,3 @@
- 
 
 $(".fa-wechat").hover(function() {
     var wechat = $("#ho-wechat").show();
