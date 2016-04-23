@@ -1,3 +1,4 @@
+
 var email=false,
     confirm=false,
     firstname=false,
@@ -29,6 +30,7 @@ function pwd() {
     else confirm=false;
 
 }
+
 $("input").change(function(event) {
     fname();pwd();
     /* Act on the event */
@@ -43,12 +45,29 @@ $("input").change(function(event) {
         });
 });
 
-$("#login").click({
-    $.post('/login', {name: firstname, password:inputPassword}, function(data, textStatus, xhr) {
-        /*optional stuff to do after success */
-        if(data.code=="1"){
-            window.open("#");
-            // token=data.token;
-        }
-    });
+$("#modalconfirm").click(function(){
+    $("#modalinfo").html("");
+    $("#latteModal").modal('hide');
+});
+
+function showModal(){
+  $("#latteModal").modal('show');
+}
+
+$("#loginform").submit(function(e){
+    username = $("#firstname").val();
+    password = $("#inputPassword").val();
+    showModal();
+    $.post('/login', {username: username, password: password}, function(data) {
+         /*optional stuff to do after success */
+         if(data.code=="1"){
+             $("#modalinfo").html("<h4>您已经登陆成功，hello，<strong style='color:red;'>" + data.message + "</strong></h4>");
+         }
+         else{
+             $("#modalinfo").html("<p class='text-warning'> 登录失败，原因：" + data.message + "</p>");
+         }
+         showModal();
+      })
+    e.preventDefault();
+   });
         
